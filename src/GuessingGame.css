@@ -1,0 +1,201 @@
+/* GuessingGame.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    max-width: 55%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: rgb(255, 136, 0);
+    text-shadow: 5px 5px rgb(236, 232, 232);
+}
+
+.input-container input {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.input-container button:hover {
+    background-color: rgb(206, 56, 6);
+}
+
+.button-container {
+    margin-bottom: 20px;
+    
+}
+
+.button-container .settings-button, .button-container .stats-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    border-color: #035bb8;
+    color: #1f1f1f;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container .settings-button:hover, .button-container .stats-button:hover {
+    color: beige;
+    background-color: #838383;
+}
+
+.button-container .restart-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgb(3, 197, 6);
+}
+
+.button-container .restart-button:hover {
+    background-color: rgb(34, 135, 3);
+}
+
+.stats-container {
+    margin-bottom: 10px;
+}
+
+.stats-container p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.hint-container p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+
+
+/* StatsPage CSS */
+
+.stats-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 20px;
+  }
+  
+  .stats-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+
+  }
+  
+  .stats-item {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .clear-button {
+    background-color: rgb(255, 136, 0); 
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px 20px;
+  }
+  
+  .clear-button:hover {
+    background-color: rgb(206, 56, 6);
+  }
+  
+
+  /* Settings CSS */
+  .settings-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 20px;
+  }
+
+  .settings-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .settings-container h2 {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .settings-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .settings-container input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .savesettings-button {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px 20px;
+  }
+  
+  .savesettings-button:hover {
+    background-color: rgb(206, 56, 6); 
+  }
