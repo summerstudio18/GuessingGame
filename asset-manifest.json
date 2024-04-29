@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GuessingGame/static/css/main.8fa44cb4.css",
+    "main.js": "/GuessingGame/static/js/main.0af92acd.js",
+    "static/js/453.ad6eb26e.chunk.js": "/GuessingGame/static/js/453.ad6eb26e.chunk.js",
+    "static/media/gameImage.jpg": "/GuessingGame/static/media/gameImage.29f66b1baaa995dabba4.jpg",
+    "index.html": "/GuessingGame/index.html",
+    "main.8fa44cb4.css.map": "/GuessingGame/static/css/main.8fa44cb4.css.map",
+    "main.0af92acd.js.map": "/GuessingGame/static/js/main.0af92acd.js.map",
+    "453.ad6eb26e.chunk.js.map": "/GuessingGame/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fa44cb4.css",
+    "static/js/main.0af92acd.js"
+  ]
+}
